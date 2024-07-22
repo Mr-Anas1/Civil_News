@@ -1,0 +1,29 @@
+.podcastlist {
+    width: 270px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--TertiaryColor);
+    border-radius: 10px;
+
+}
+
+.podcastlist img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.podcastlist h3 {
+    color: var(--HeadingColor);
+}
+
+.podcastlist p {
+    color: var(--LinkColor);
+}
+
+
+

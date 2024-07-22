@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: 0px 200px;
+}
+
+.logo-img {
+    font-size: 32px;
+    color: var(--HeadingColor);
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    color: var(--HeadingColor);
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.navbar-links li {
+    cursor: pointer;
+}
+
+.navbar-search {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar-links a {
+    color: var(--TextColor);
+    text-decoration: none;
+}
+
+hr {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease;
+    width: 80%;
+    margin: auto;
+}
+
+
+.navbar-links a:hover hr {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar-links a:checked hr {
+    visibility: visible;
+}

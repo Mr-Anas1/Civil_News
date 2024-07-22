@@ -1,0 +1,51 @@
+.reviews h1 {
+    font-size: 36px;
+}
+
+.review-container {
+    margin: 30px 10px 120px;
+}
+
+.review-content {
+    background-color: var(--SecondaryColor);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.description {
+    height: 100px;
+    margin-top: 5px;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviews .profile img {
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.slick-slide > div {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.reviews .slick-dots li.slick-active button:before {
+    color: #ffffff;
+}
+
+.reviews .slick-dots li button:before {
+    color: var(--TextColor);
+}
+
+.rating-star {
+    color: #FFD700;
+}
+

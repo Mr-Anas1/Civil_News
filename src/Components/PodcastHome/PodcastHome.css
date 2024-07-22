@@ -1,0 +1,44 @@
+.podcasthome {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.podcasthome-heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.podcasthome-title {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.podcasthome-title .mic-icon {
+    font-size: 58px;
+    color: var(--HeadingColor);
+}
+
+.podcasthome-title h2 {
+    color: var(--HeadingColor);
+    font-size: 36px;
+}
+
+.podcasthome-title p {
+    color: var(--LinkColor);
+    font-size: 22px;
+}
+
+.podcasthome-heading-container > p {
+    color: var(--BoxBg);
+    cursor: pointer;
+}
+
+.podcasts {
+    display: flex;
+    justify-content: space-between;
+}

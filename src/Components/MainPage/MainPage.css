@@ -1,0 +1,60 @@
+.mainpage {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.mainpage h1 {
+    font-size: 50px;
+    font-weight: 900;
+    width: 900px;
+    margin-bottom: 20px;
+    color: var(--HeadingColor);
+}
+
+.mainpage p {
+    font-size: 24px;
+    width: 750px;
+    margin-bottom: 30px;
+    color: var(--LinkColor);
+}
+
+.mainpage-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.mainpage-btn button {
+    padding: 0px 25px;
+    min-width: 220px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mainpage-btn-pri {
+    background-color: var(--ButtonColor);
+    color: var(--TextColor);
+    outline: none;
+    border: none;
+}
+
+.mainpage-btn-pri:hover {
+    background-color: var(--BoxColor);
+}
+
+.mainpage-btn-sec {
+    background-color: var(--PrimaryColor);
+    color: var(--ButtonColor);
+    border: 2px solid var(--ButtonColor);
+    outline: none;
+}
+
+.mainpage-btn-sec:hover {
+    border-color: var(--BoxColor);
+    color: var(--BoxColor);
+}

@@ -1,0 +1,88 @@
+.contact {
+    margin: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 50px;
+}
+
+.contact-description {
+    text-align: center;
+}
+
+.contact-main {
+    display: flex;
+    gap: 140px;
+    margin-top: 30px;
+}
+
+.contact-info {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.contact-info > div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-form {
+    padding: 30px 20px;
+    background-color: var(--SecondaryColor);
+    width: 100%;
+    border-radius: 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.contact-form input {
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--TextColor);
+    background-color: transparent;
+    color: var(--TextColor);
+    height: 70px;
+    box-sizing: border-box;
+    padding: 0px 30px ;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+
+
+.input-description {
+    height: 200px;
+    padding: 20px 30px;
+    font-size: 22px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid var(--TextColor);
+    background-color: transparent;
+    color: var(--TextColor);
+}
+
+.input-name {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-btn {
+    width: 190px;
+    height: 72px;
+    color: var(--TextColor);
+    outline: none;
+    border: none;
+    background-color: var(--BoxColor);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+

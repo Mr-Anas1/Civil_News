@@ -14,7 +14,7 @@ function App() {
       
         <Navbar />
         <Routes>
-          <Route path={"/home"} element={<Home />} />
+          <Route path={"/listen"} element={<Home />} />
           <Route path={"/podcast"} element={<Podcast />}>
             <Route path={":podcastId"} element={<Podcast />}/>
           </Route>

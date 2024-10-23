@@ -1,5 +1,5 @@
 {
-  "homepage": "http://mr-anas1.github.io/Listen/",
+  "homepage": "https://mr-anas1.github.io/Listen/",
   "name": "listen",
   "version": "0.1.0",
   "private": true,
@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.2.0"
   }
 }

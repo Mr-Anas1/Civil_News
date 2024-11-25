@@ -4,10 +4,9 @@ import "./MainPage.css";
 const MainPage = () => {
   return (
     <div className="mainpage">
-      <h1>Share via writing and podcasts, hope you enjoy</h1>
+      <h1>Welcome to the world of Civil Engineering</h1>
       <p>
-        Increase your knowledge by reading new things and I will share whatever
-        I know for you, as long as I enjoy it
+      Dive into insightful podcast talks exploring the innovations, challenges, and success stories shaping our infrastructure and building the future.
       </p>
 
       <div className="mainpage-btn">

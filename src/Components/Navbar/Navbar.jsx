@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className='navbar'>
         <div className="navbar-logo">
             <IoMdMicrophone className='logo-img'/>
-            <h1 className='logo-text'>LISTEN</h1>
+            <h1 className='logo-text'>CIVIL NEWS</h1>
         </div>
 
         <div className="navbar-links">
